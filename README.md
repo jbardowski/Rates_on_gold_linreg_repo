@@ -1,0 +1,3 @@
+## Predicting the spot price of gold from real interest rates
+
+Using a paid provider's REST API to download gold and copper prices (done with a custom module I built) and the Federal Reserve's FRED database to download generic TIPS yields (i.e., the proxy for real interest rates), this script ***(a)*** looks at the copper to gold ratio, and ***(b)*** includes a linear regression model to predict the spot price of gold given real interest rates.
